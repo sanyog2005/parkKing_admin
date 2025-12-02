@@ -18,7 +18,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 // Constants and configuration (UNCHANGED)
-const BASE = import.meta.env.VITE_API_URL?.replace(/\/$/, "") || "http://localhost:1000";
+const BASE = import.meta.env.VITE_API_URL?.replace(/\/$/, "") || "https://parking-backend-3tgb.onrender.com";
 const api = axios.create({
   baseURL: BASE,
   headers: { Accept: "application/json" },

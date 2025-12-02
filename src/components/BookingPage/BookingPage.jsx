@@ -23,7 +23,7 @@ import {
 import axios from "axios";
 
 // Constants and configuration
-const baseURL = "http://localhost:1000";
+const baseURL = "https://parking-backend-3tgb.onrender.com";
 const api = axios.create({ baseURL, headers: { Accept: "application/json" } });
 
 // Utility functions (UNCHANGED)

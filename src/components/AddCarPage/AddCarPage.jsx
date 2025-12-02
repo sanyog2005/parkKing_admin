@@ -3,7 +3,7 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const baseURL = "http://localhost:1000";
+const baseURL = "https://parking-backend-3tgb.onrender.com";
 const api = axios.create({ baseURL });
 
 const AddCarPage = () => {
